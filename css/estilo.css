@@ -247,8 +247,26 @@ button>a{
 .mail{
     text-decoration: none;
 }
-    
-    
+/* comienzo de main..tercera seccion.. */
+.cont3{
+    text-align: center;
+    height: 630px;
+    background-color: rgb(224, 13, 13);
+    width: 1343px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center ;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+.titulobox3>p{
+    background-color: yellow;
+    width: 80px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+   
+}
     
    
     
