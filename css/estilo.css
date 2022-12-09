@@ -1,11 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
 }
 body{
-    background-color: rgb(189, 31, 31);
+    background-color: #ffff;
+    width: 1343px;
     margin: 0 auto;
-    width: 1220px;
 }
 /* comienzo de emcabezado */
 header{
@@ -53,7 +57,7 @@ header{
 /* comienzo de main..primera seccion.. */
 .cont1{
     display: flex;
-    height: 520px;
+    height: 588px;
     width: 100%;
     background-color: rgb(240, 158, 6);
     align-items: center;
@@ -324,8 +328,8 @@ div>i{
 /* comienzo de main..caurta seccion.. */
 .cont4{
     text-align: center;
-    height: 800px;
-    background-color: rgb(18, 209, 82);
+    height: 1000px;
+    background-color: #ffff;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -341,9 +345,9 @@ div>i{
     margin-bottom: 10px;
 }
 .titulo41{
-  background-color: blue;
+ 
   margin: 0 auto;
-  height: 40px;
+  height: 50px;
   width: 860px;
   display: flex;
   justify-content: start;
@@ -352,18 +356,18 @@ div>i{
     margin-left: 318px;
 }
 .boxexperiencia{
-    background-color: #f5df4e;
+   
     width: 100%;
-    height: 300px;
+    height: 230px;
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    
 }
 .experiencias1{
-    background-color: aqua;
+    
     text-align: start;
-    height: 300px;
+    height: 200px;
     width: 450px;
     border-left: 5px solid #f5df4e;
     
@@ -380,22 +384,22 @@ div>i{
     color: rgb(134, 131, 131);
 }
 .experiencias2{
-    background-color: aqua;
     text-align: start;
-    height: 300px;
+    height: 200px;
     width: 400px;
     border-left: 5px solid #f5df4e;
+    
        
 }  
 .h1habi{
-    width: 28%;
+    width: 31.5%;
     height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 .boxhabi{
-    background-color: #f5df4e;
+    
     width: 100%;
     display: flex;
     justify-content: center;
@@ -407,40 +411,144 @@ div>i{
     display: flex;
 }
 .porcentaje1{
-    background-color: aqua;
+   
     text-align: start;
     height: 210px;
     width: 450px;
-    border-left: 5px solid black;
+    
     align-items: center;
 }
+.conteexp{
+    margin-left: 10px;
+    
+}
 .porcentaje2{
-    background-color: rgb(255, 81, 0);
+    
     text-align: start;
     height: 210px;
     width: 400px;
-    border-left: 5px solid black;
+    
     align-items: center;
 }
 .barraprogreso{
     background-color: rgb(228, 226, 226);
-    height: 6px;
+    height: 7px;
     width: 397px;
-    border: 2px solid black;
+   
     border-radius: 0.25rem;
 }
-.relleno{
-    width: 200px;
+.relleno6{
+    width: 55%;
     background-color: #f5df4e;
-    height: 5px;
+    height: 100%;
+    border: 1px solid rgb(129, 106, 4);
+    border-radius: 0.20rem;    
+}
+.relleno5{
+    width: 60%;
+    background-color: #f5df4e;
+    height: 100%;
+    border: 1px solid rgb(129, 106, 4);
+    border-radius: 0.20rem;    
+}
+.relleno4{
+    width: 80%;
+    background-color: #f5df4e;
+    height: 100%;
+    border: 1px solid rgb(129, 106, 4);
+    border-radius: 0.20rem;    
+}
+.relleno3{
+    width: 75%;
+    background-color: #f5df4e;
+    height: 100%;
+    border: 1px solid rgb(129, 106, 4);
+    border-radius: 0.20rem;    
+}
+.relleno2{
+    width: 95%;
+    background-color: #f5df4e;
+    height: 100%;
+    border: 1px solid rgb(129, 106, 4);
+    border-radius: 0.20rem;    
+}
+.relleno1{
+    width: 85%;
+    background-color: #f5df4e;
+    height: 100%;
     border: 1px solid rgb(129, 106, 4);
     border-radius: 0.20rem;    
 }
 .espacios{
-    margin-top: 30px;
-    background-color: rgb(6, 138, 138); 
+    margin-top: 30px; 
     width: 400px;
     display: flex;
     justify-content: space-between;
-
+}
+.botoncv{
+    width: 150px;
+    margin: 50px auto;
+    text-decoration: none;
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+}
+.linkcv{
+   
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+/* comienzo de main..quinta seccion.. */ 
+.cont5{
+    
+    text-align: center;
+    height: 900px;
+}
+.titulo5{
+ 
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.titulo5>p{
+    width: 90px;
+    background-color: #f5df4e;
+    margin-bottom: 10px;
+}
+.barraport{
+    height: 60px;
+}
+.barraport>a{
+    margin: 10px
+}
+img{
+    width: 100%;
+    height: 100%;
+    max-width: 280px;
+    max-height: 250px;
+    object-fit: cover;
+    
+}
+.contenedorimg{
+    list-style: none;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    
+}
+.contenedorimg>li{
+    margin: 5px;
+    flex: 1 1 18rem;
+}
+/* comienzo de main..sexta seccion.. */ 
+.cont6{
+    background-color: #804ef5;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
