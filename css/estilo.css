@@ -18,6 +18,8 @@ header{
     height: 60px;
     width: 100%;
     align-items: center;
+    margin:  auto;
+    resize: vertical;
     
 }
 .contheader{
@@ -27,15 +29,16 @@ header{
     justify-content: center;
 }
 .divheader{
-    width: 930px;
+    width: 890px;
     display: flex;
     justify-content: space-around;
+    margin: 0 auto;
 }
 .headtex{
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     background-color: #ffff;  
-    margin-left: 8px; 
+  
 }
 .headnav{
     background-color:  #ffff;
@@ -54,10 +57,11 @@ header{
     text-decoration: none;
     color: black;
 }
+
 /* comienzo de main..primera seccion.. */
 .cont1{
     display: flex;
-    height: 588px;
+    height: 520px;
     width: 100%;
     background-color: rgb(240, 158, 6);
     align-items: center;
@@ -163,8 +167,11 @@ button>a{
     flex-direction: column;
    
 }
+.subrrallado{
+    border-bottom: 2px solid rgb(240, 158, 6);
+}
 .titp2> p{
-    background-color: yellow;
+    background-color: rgb(240, 158, 6);
     width: 80px;
     margin-left: 380px;
     margin-bottom: 10px;
@@ -210,7 +217,7 @@ button>a{
     font-size: 80px;
     width: 70px;
     border-radius: 50px; 
-    background-color: rgba(255, 255, 0, 0.849);
+    background-color: rgb(240, 158, 6);
 }
 .exp> p{
     margin-top: 30px;
@@ -260,7 +267,7 @@ button>a{
     
 }
 .titulobox3>p{
-    background-color: yellow;
+    background-color: rgb(240, 158, 6);
     width: 80px;
     margin-left: 250px;
     margin-top: 50px;
@@ -290,7 +297,7 @@ button>a{
 }
 div>i{
     font-size: 40px;
-    color: #f5df4e;
+    color: rgb(240, 158, 6);
 }
 .poder> h2{
     margin-top: 15px;
@@ -339,7 +346,7 @@ div>i{
     height: 100px;
 }
 .titulo4>p{
-    background-color: #f5df4e;
+    background-color: rgb(240, 158, 6);
     margin: 0 auto;
     width: 80px;
     margin-bottom: 10px;
@@ -369,7 +376,7 @@ div>i{
     text-align: start;
     height: 200px;
     width: 450px;
-    border-left: 5px solid #f5df4e;
+    border-left: 5px solid rgb(240, 158, 6);
     
 }
 .altura1{
@@ -387,7 +394,7 @@ div>i{
     text-align: start;
     height: 200px;
     width: 400px;
-    border-left: 5px solid #f5df4e;
+    border-left: 5px solid rgb(240, 158, 6);
     
        
 }  
@@ -431,7 +438,7 @@ div>i{
     align-items: center;
 }
 .barraprogreso{
-    background-color: rgb(228, 226, 226);
+    background-color: rgb(209, 206, 206);
     height: 7px;
     width: 397px;
    
@@ -439,42 +446,42 @@ div>i{
 }
 .relleno6{
     width: 55%;
-    background-color: #f5df4e;
+    background-color: rgb(240, 158, 6);
     height: 100%;
     border: 1px solid rgb(129, 106, 4);
     border-radius: 0.20rem;    
 }
 .relleno5{
     width: 60%;
-    background-color: #f5df4e;
+    background-color: rgb(240, 158, 6);
     height: 100%;
     border: 1px solid rgb(129, 106, 4);
     border-radius: 0.20rem;    
 }
 .relleno4{
     width: 80%;
-    background-color: #f5df4e;
+    background-color: rgb(240, 158, 6);
     height: 100%;
     border: 1px solid rgb(129, 106, 4);
     border-radius: 0.20rem;    
 }
 .relleno3{
     width: 75%;
-    background-color: #f5df4e;
+    background-color: rgb(240, 158, 6);
     height: 100%;
     border: 1px solid rgb(129, 106, 4);
     border-radius: 0.20rem;    
 }
 .relleno2{
     width: 95%;
-    background-color: #f5df4e;
+    background-color: rgb(240, 158, 6);
     height: 100%;
     border: 1px solid rgb(129, 106, 4);
     border-radius: 0.20rem;    
 }
 .relleno1{
     width: 85%;
-    background-color: #f5df4e;
+    background-color: rgb(240, 158, 6);
     height: 100%;
     border: 1px solid rgb(129, 106, 4);
     border-radius: 0.20rem;    
@@ -514,7 +521,7 @@ div>i{
 }
 .titulo5>p{
     width: 90px;
-    background-color: #f5df4e;
+    background-color: rgb(240, 158, 6);
     margin-bottom: 10px;
 }
 .barraport{
@@ -547,8 +554,76 @@ img{
 }
 /* comienzo de main..sexta seccion.. */ 
 .cont6{
-    background-color: #804ef5;
-    text-align: center;
+    background-color:rgb(240, 158, 6);
     display: flex;
     flex-wrap: wrap;
+    height: 630px;
+    align-items: center;
+    justify-content: center;
+}
+.infoperso{
+    height: 320px;
+    width: 450px;
+    display: block;
+    text-align: start;
+}
+.boxformularios{
+    height: 320px;
+    width: 450px;
+    display: block;
+    text-align: start;  
+}
+.textformularios1{
+    margin-bottom: 40px;
+}
+.textformularios2{
+    margin-bottom: 30px;
+    width: 380px;
+}
+.textformularios{
+    margin-bottom: 5px;
+    gap: 2.5em;
+}
+.navf{
+    margin-top: 40px;
+}
+.navfooter{
+    margin: 6px;
+}
+.hrseparacion{
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background-color: rgb(240, 158, 6);
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid rgb(128, 125, 125) ;
+} 
+.separacion1{
+    margin-bottom: 10px;
+}
+.separacion{
+    margin: 10px 0 10px 0;
+}
+textarea{
+    background-color: rgb(240, 158, 6);
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid rgb(128, 125, 125) ;
+}
+.botonfooter{
+    margin-top: 20px;
+    background-color: black;
+    width: 100px;
+    height: 35px;
+}
+.textfooter{
+    color: #ffff;
 }
